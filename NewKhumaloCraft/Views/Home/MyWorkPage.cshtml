@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Some of the Art";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* CSS for Order Now buttons */
+        button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+
+            button:hover {
+                background-color: #45a049;
+                color: white;
+            }
+    </style>
+</head>
+<body>
+    <h1>@ViewData["Title"]</h1>
+
+    <p><strong> THIS IS FOOTBALL HERITAGE </strong></p>
+
+    <h1>Name: A future Galactico? </h1>
+    <img src="https://static.printler.com/cache/d/8/4/5/0/d/d8450dd11fcae5d368e79f50e25f72da0ce30e33.jpg" width="500" height="500">
+    <p>In the realm of football's artistry, Real Madrid's pursuit of Kylian Mbappé is a saga of ambition and anticipation. From whispers of interest to the final stroke of the transfer deal, this narrative unfolds like a symphony, with Madrid's fans eagerly awaiting the crescendo of Mbappé donning the iconic white jersey, ready to create a new masterpiece on the field.</p>
+    <a href="https://vm.tiktok.com/ZMMyBUugB/">Ending Saga?</a>
+    <h3>Price: R26,000</h3>
+    <!-- Button to navigate to the Create view -->
+    <a asp-controller="PurchaseDetails" asp-action="Create" class="btn btn-primary">Order Now</a>
+
+    <h1>Name: A dying Star </h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm-lbshy_WO9fnH_t3NhCvQKcQfbB_FIWD6g&usqp=CAU" width="500" height="500">
+    <p>Cristiano Ronaldo, once a blazing star illuminating the footballing cosmos with his unmatched brilliance, now finds himself akin to a dying star. His movements on the pitch, once a ballet of power and precision, now carry the weight of time's relentless passage. Like the fading glow of a star's light, Ronaldo's greatness flickers in moments of brilliance, reminding us of the inevitable cycle of all things celestial.</p>
+    <a href="https://vm.tiktok.com/ZMMyhy6dF/">Comeback of CR7</a>
+    <h3>Price: R80,000</h3>
+    <a asp-controller="PurchaseDetails" asp-action="Create" class="btn btn-primary">Order Now</a>
+
+    <h1>Name: Paradise</h1>
+    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/679487159787437.Y3JvcCwxMDIyLDc5OSwyMTUsMjk1.png" width="500" height="500">
+    <p>Ladies and gentlemen, history has been made on this sacred ground! Lionel Messi, the maestro of the beautiful game, has etched his name in the annals of footballing legend. With a stroke of his magic, he has lifted not just a trophy, but the hopes and dreams of a nation. The boy from Rosario, the prodigy who danced past defenders with the grace of a matador, now stands tall as a world champion!</p>
+    <a href="https://vm.tiktok.com/ZMMyh5ynY/">Entering Paradise</a>
+    <h3>Price: R80,000</h3>
+    <a asp-controller="PurchaseDetails" asp-action="Create" class="btn btn-primary">Order Now</a>
+</body>
+</html>

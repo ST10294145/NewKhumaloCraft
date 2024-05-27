@@ -1,0 +1,20 @@
+﻿@using System.Security.Claims
+
+@{
+    Layout = "_Layout";
+
+    var user = Context.User;
+
+    if (user.IsInRole("Admin"))
+    {
+        Layout = "_AdminLayout";
+    }
+    else if (user.Identity.IsAuthenticated)
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "_Layout";
+    }
+}

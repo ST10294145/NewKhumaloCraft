@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - NewKhumaloCraft</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NewKhumaloCraft.styles.css" asp-append-version="true" />
+    <style>
+        /* General styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fff; /* White background */
+            color: #ff69b4; /* Pink text */
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background: linear-gradient(to right, #ff69b4, #ff1493); /* Pink gradient */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+
+            .nav-link:hover {
+                color: #ff69b4 !important; /* Lighter pink on hover */
+                text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+            }
+
+        .navbar-toggler-icon {
+            filter: invert(1);
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: #ff69b4; /* Pink background */
+            color: #fff;
+            padding: 1em 0;
+        }
+
+            footer a {
+                color: #ff1493; /* Darker pink */
+            }
+
+                footer a:hover {
+                    color: #fff;
+                    text-decoration: underline;
+                }
+
+        /* Main content styling */
+        .container {
+            margin-top: 20px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #ff69b4; /* Pink headings */
+        }
+
+        a {
+            color: #ff69b4; /* Pink links */
+        }
+
+            a:hover {
+                color: #ff1493; /* Darker pink on hover */
+            }
+
+        /* Buttons */
+        .btn-primary {
+            background: linear-gradient(to right, #ff69b4, #ff1493); /* Pink gradient buttons */
+            border: none;
+        }
+
+            .btn-primary:hover {
+                background: linear-gradient(to right, #ff1493, #ff69b4); /* Darker pink gradient on hover */
+            }
+
+        /* Adding some custom styling for form elements */
+        input[type="text"], input[type="email"], input[type="password"], textarea {
+            border: 2px solid #ff69b4; /* Pink border */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+            input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+                border-color: #ff1493; /* Darker pink on focus */
+                box-shadow: 0 0 5px rgba(255, 105, 180, 0.5); /* Pink shadow */
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">NewKhumaloCraft</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Submissions" asp-action="Index">SubmissionIndex</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Submissions" asp-action="Create">Contact Us!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MyWorkPage">My Work Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="PurchaseDetails" asp-action="Create">Order</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="PurchaseDetails" asp-action="Index">Order History</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <partial name="_LoginPartial" />
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
