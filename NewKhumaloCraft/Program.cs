@@ -3,7 +3,7 @@ using NewKhumaloCraft.Data;
 using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//HI Saihil
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
