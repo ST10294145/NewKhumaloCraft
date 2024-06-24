@@ -17,6 +17,11 @@ NewKhumaloCraft Emporium aims to connect artisans with a global audience through
 - Deployment Strategy: Employed Azure DevOps or similar CI/CD pipelines for continuous integration and deployment to streamline updates and ensure rapid deployment of new features.
 - Security and Performance: Implemented security best practices and performance optimization techniques to deliver a secure and responsive user experience globally.
 
+# How to get started
+- Download Visual Studio IDE with .NET8 SDK
+- Clone repospitory and open it in Visual Studio 
+
+
 # Admin Information
 ## Username: Batman@yahoo.com
 ## Password: MRsr#>9&"E:HFd'
