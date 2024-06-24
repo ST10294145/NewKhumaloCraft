@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Orchestration": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7223"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30871,
+      "useSSL": false
+    }
+  }
+}
