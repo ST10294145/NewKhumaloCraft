@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewKhumaloCraft", "NewKhumaloCraft\NewKhumaloCraft.csproj", "{40C0A168-29A5-446D-A644-579E1DF1E33E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewKhumaloCraft", "NewKhumaloCraft\NewKhumaloCraft.csproj", "{40C0A168-29A5-446D-A644-579E1DF1E33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDurableFunctions", "MyDurableFunctions\MyDurableFunctions.csproj", "{374E9D47-8630-486E-9DC1-EBE0CFBF90DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{40C0A168-29A5-446D-A644-579E1DF1E33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40C0A168-29A5-446D-A644-579E1DF1E33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40C0A168-29A5-446D-A644-579E1DF1E33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374E9D47-8630-486E-9DC1-EBE0CFBF90DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374E9D47-8630-486E-9DC1-EBE0CFBF90DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374E9D47-8630-486E-9DC1-EBE0CFBF90DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374E9D47-8630-486E-9DC1-EBE0CFBF90DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
