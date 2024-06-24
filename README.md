@@ -1,10 +1,10 @@
 # Cloud POE
 
 ## NewKhumaloCraft 
-Welcome to the NewKhumaloCraft Emporium GitHub repository! This repository contains the code and resources for NewKhumaloCraft, a global e-commerce platform dedicated to showcasing handcrafted products from artisans worldwide.
+Welcome to the GitHub repository for the NewKhumaloCraft Emporium! The code and materials for NewKhumaloCraft, an international e-commerce site that features handcrafted goods from craftspeople all around the world, are housed in this repository.
 
 ## Project Overview
-NewKhumaloCraft Emporium aims to connect artisans with a global audience through a scalable and user-friendly e-commerce platform. This platform enables customers worldwide to discover, learn about, and purchase unique artisanal creations.
+NewKhumaloCraft Emporium is an e-commerce site designed to facilitate the connection between artisans and a worldwide customer base. Customers from all over the world can use this site to find, research, and buy distinctive handcrafted products.
 
 ### Key Features and Functionality
 - Basic Web Application Development: Implemented a web application to provide company background, showcase services, and highlight artisan stories.
